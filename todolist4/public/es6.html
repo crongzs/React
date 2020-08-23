@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ES6</title>
+</head>
+<body>
+<h1>ES6</h1>
+<script>
+    let b = 2;
+    const c = 3;
+    console.log(b,c);
+
+    var f = a => a + 1;
+    // 等价于
+    var f = function (a) {
+        return a + 1;
+    };
+
+    function foo(){
+        this.bar = 1;
+        this.f = (a) => a + this.bar;
+    };
+    // 等价于
+    function foo() {
+        this.bar = 1;
+        this.f = (function (a) {
+            return a + this.bar;
+        }).bind(this)
+    }
+
+    `Hello
+    ES6`;
+
+    var name = 'ES6';
+    var es = `Hello ${name}`;
+    console.log(es)
+</script>
+</body>
+</html>
