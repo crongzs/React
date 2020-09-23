@@ -15,7 +15,7 @@ const AppUI = (props) => {
                 style={{marginTop: '10px', width: '387px'}}
                 dataSource={props.list}
                 renderItem={(item, index) => (
-                    <List.Item onClick={(index) => {
+                    <List.Item onClick={() => {
                         props.handleItemClick(index)
                     }}>
                         {item}

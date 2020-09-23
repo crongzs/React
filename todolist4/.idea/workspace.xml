@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d800d7-2b74-4494-99ef-2a83822ca7fb" name="Default Changelist" comment="" />
+    <list default="true" id="15d800d7-2b74-4494-99ef-2a83822ca7fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../todolist5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/src/AppUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/src/AppUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/src/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/src/store/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/src/store/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/src/store/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todolist5/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../todolist5/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../慕课简书笔记/02高级.md" beforeDir="false" afterPath="$PROJECT_DIR$/../慕课简书笔记/02高级.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../慕课简书笔记/03Redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/../慕课简书笔记/03Redux.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1g3uxq9ypTPnsVO7JZj8v41VVYu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,6 +77,7 @@
       <workItem from="1597894766292" duration="209000" />
       <workItem from="1597963413989" duration="1217000" />
       <workItem from="1598056545229" duration="1801000" />
+      <workItem from="1598478988001" duration="246000" />
     </task>
     <servers />
   </component>

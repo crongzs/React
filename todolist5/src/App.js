@@ -3,9 +3,15 @@ import 'antd/dist/antd.css';
 // import {Input, Button, List} from "antd";
 import store from "./store";
 // import {CHANGE_INPUT_VALUE, SUBMIT_ITEM, DELETE_ITEM} from "./store/actionTypes"
-import {getChangeInputValueAction, getSubmitItemAction, getDeleteItemAction} from "./store/actionCreators"
+import {
+    getChangeInputValueAction,
+    getSubmitItemAction,
+    getDeleteItemAction,
+    // initListAction,
+    getTodoListAction
+} from "./store/actionCreators"
 import AppUI from "./AppUI"
-import axios from "axios";
+// import axios from "axios";
 
 
 class App extends Component {
@@ -32,11 +38,14 @@ class App extends Component {
         )
     }
 
-    componentDidUpdate() {
-        console.log('------------');
-        axios.get('http://127.0.0.1:8000/demo-1/',).then((res) => {
-            console.log(res);
-        })
+    componentDidMount() {
+        const action = getTodoListAction();
+        store.dispatch(action);
+        // axios.get('http://127.0.0.1:8000/demo-1/',).then((res) => {
+        //     const data = res.data;
+        //     const action = initListAction(data);
+        //     store.dispatch(action)
+        // });
     }
 
     handleInputChange(e) {
@@ -67,6 +76,7 @@ class App extends Component {
         //     // value: index
         //     index
         // };
+        console.log('index:',index);
         const action = getDeleteItemAction(index);
         store.dispatch(action);
     }

@@ -1,0 +1,5 @@
+div {
+    overflow: hidden; /*设置在外层触发内层（内层有设置float）的bfc*/
+    background: #f7f7f7;
+
+}
